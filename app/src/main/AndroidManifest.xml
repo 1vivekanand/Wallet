@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".expenseActivity.AddExpenseDialogCard"
+            android:exported="false" />
+        <activity
+            android:name=".expenseActivity.ExpenseCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".expenseActivity.AddExpenseActivity"
+            android:exported="false" />
+        <activity
             android:name=".ExpenseActivity"
             android:exported="false" />
         <activity
